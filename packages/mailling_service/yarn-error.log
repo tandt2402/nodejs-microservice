@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/duthientan/.nvm/versions/node/v14.17.0/bin/node /Users/duthientan/.nvm/versions/node/v14.17.0/bin/yarn add ampqlib
+
+PATH: 
+  /Users/duthientan/.nvm/versions/node/v14.17.0/bin:/Users/duthientan/Library/Python/2.7/bin:/opt/homebrew/Cellar/pyenv-virtualenv/1.1.5/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/duthientan/.nvm/versions/node/v14.17.0/bin:/Users/duthientan/Library/Python/2.7/bin:/opt/homebrew/Cellar/pyenv-virtualenv/1.1.5/shims:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/ampqlib: Not found
+      at Request.params.callback [as _callback] (/Users/duthientan/.nvm/versions/node/v14.17.0/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/duthientan/.nvm/versions/node/v14.17.0/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:376:20)
+      at Request.<anonymous> (/Users/duthientan/.nvm/versions/node/v14.17.0/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:376:20)
+      at IncomingMessage.<anonymous> (/Users/duthientan/.nvm/versions/node/v14.17.0/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:482:28)
+      at IncomingMessage.emit (events.js:388:22)
+      at endReadableNT (internal/streams/readable.js:1336:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "mailling_service",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
